@@ -39,7 +39,7 @@
   </code>
 </p> -->
 
-#
+<img width="100%" src="https://user-images.githubusercontent.com/68729505/140882251-dd26f5dd-fc96-44e4-a50b-90c914b2985d.png"/>
 
 [![𝚝𝚛𝚘𝚙𝚑𝚢](https://github-profile-trophy.vercel.app/?username=JayantGoel001&column=8&margin-w=15&margin-h=15&no-bg=true&no-frame=true&theme=juicyfresh)](https://github.com/theashishgavade)
 
