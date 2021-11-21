@@ -14,9 +14,6 @@ jobs:
         uses: theashishgavade/metrics@master
         with:
           filename: metrics.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          base: "header, activity, community, repositories"
           plugin_introduction: yes
           plugin_introduction_title: yes
           plugin_lines: yes
@@ -51,13 +48,9 @@ jobs:
         uses: Theashishgavade/metrics@master
         with:
           filename: metrics.detailed.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          base: "metadata"
           plugin_gists: yes
           plugin_pagespeed: yes
           plugin_pagespeed_detailed: yes
-          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
           plugin_followup: yes
           plugin_followup_sections: user
           plugin_languages: yes
