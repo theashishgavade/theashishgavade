@@ -6,17 +6,15 @@ on:
     branches: "master"
 jobs:
 
-  github-metrics-personal:
+  update-readme:
+    name: Update Readme with Metrics
     runs-on: ubuntu-latest
     steps:
-  
-      - name: Personal metrics
-        uses: theashishgavade/metrics@master
+      - uses: anmol098/waka-readme-stats@master
         with:
-          filename: metrics.svg
-                   
-      - name: Personal metrics (detailed)
-        uses: Theashishgavade/metrics@master
-        with:
-          filename: metrics.detailed.svg
-         
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN   }}
+          SHOW_LINES_OF_CODE : "True"
+          SHOW_PROFILE_VIEWS : "False"
+          SHOW_LOC_CHART : "False"
+          SHOW_TITLE : true
