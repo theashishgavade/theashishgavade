@@ -1,26 +1,19 @@
-name: Generate Snake
+name: Waka Readme
 
 on:
-  schedule: # execute every 8 hours
-    - cron: "00 12 * * *"
+  schedule:
+    - cron: '30 17 * * *'
   workflow_dispatch:
-
 jobs:
-  build:
-    name: Jobs to update datas
+  update-readme:
+    name: Update Readme with Metrics
     runs-on: ubuntu-latest
     steps:
-      # Snake Animation
-      - uses: Platane/snk@master
-        id: snake-gif
+      - uses: anmol098/waka-readme-stats@master
         with:
-          github_user_name: Theashishgavade
-          svg_out_path: dist/github-contribution-grid-snake.svg
-
-      - uses: crazy-max/ghaction-github-pages@v2.1.3
-        with:
-#         Don't Run this workflow on your default branch
-          target_branch: main
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN   }}
+          SHOW_LINES_OF_CODE : "True"
+          SHOW_PROFILE_VIEWS : "False"
+          SHOW_LOC_CHART : "False"
+          SHOW_TITLE : true
