@@ -299,4 +299,4 @@ JavaScript               8 repos             ██░░░░░░░░░�
 
 #
 
-![footer](https://github.com/theashishgavade/theashishgavade/blob/master/PNG/footer.png)
+![footer](https://github.com/theashishgavade/theashishgavade/blob/master/PNG/footer12.png)
