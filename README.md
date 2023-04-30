@@ -110,7 +110,7 @@
 
 <!-- Don't Run Contribution Graph(Generate Snake) Action on your default Branch-->
 ![𝙶𝚒𝚝𝚑𝚞𝚋 𝙲𝚘𝚗𝚝𝚛𝚒𝚋𝚞𝚝𝚒𝚘𝚗 𝙶𝚛𝚊𝚙𝚑](https://github.com/theashishgavade/theashishgavade/blob/master/SVG/The%20ashish%20gavade's%20github-contribution-grid-snake.svg)
-  ![svg](https://raw.githubusercontent.com/theashishgavade/github-profile-3d-contrib/main/docs/demo/profile-night-rainbow.svg)
+  ![3D Profile](profile-3d-contrib/profile-night-rainbow.svg)
 <!-- Don't Run Contribution Graph(Generate Snake) Action on your default Branch -->
 </details>
 <br/>
