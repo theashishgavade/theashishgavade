@@ -29,8 +29,8 @@
 
 <p align="center">
    <img alt = "profile views" src="https://komarev.com/ghpvc/?username=theashishgavade&style=plastic&color=brightgreen"> •
-  <img alt="𝙶𝚒𝚝𝙷𝚞𝚋 𝚏𝚘𝚕𝚕𝚘𝚠𝚎𝚛𝚜" src="https://img.shields.io/github/followers/theashishgavade?label=Followers&style=plastic"> •   
-  <img src="https://img.shields.io/github/stars/theashishgavade?label=Stars&style=plastic&color=ff69b4" alt="𝚃𝚘𝚝𝚊𝚕 𝚂𝚝𝚊𝚛𝚜"> •
+   <img alt="𝙶𝚒𝚝𝙷𝚞𝚋 𝚏𝚘𝚕𝚕𝚘𝚠𝚎𝚛𝚜" src="https://img.shields.io/github/followers/theashishgavade?label=Followers&style=plastic&color=0F7BE6"> •   
+   <img src="https://img.shields.io/github/stars/theashishgavade?label=Stars&style=plastic&color=ff69b4" alt="𝚃𝚘𝚝𝚊𝚕 𝚂𝚝𝚊𝚛𝚜"> •
   <a href="https://github.com/sponsors/theashishgavade"><img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86"/></a>
 
 </p>
